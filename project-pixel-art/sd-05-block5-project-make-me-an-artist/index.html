@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project - Make me an artist</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Paleta de Cores</h1>
+    </header>
+    <article>
+      <div id="color-palette">
+        <div class="color firstColor"></div>
+        <div class="color default1"></div>
+        <div class="color default2"></div>
+        <div class="color default3"></div>
+      </div>
+      <button id="clear-board">Limpar</button>
+      <input
+        type="number"
+        id="board-size"
+        min="1"
+        max="50"
+        maxlength="2"
+        oninput="checkValue(this)"
+      />
+      <button id="generate-board">VQV</button>
+      <div id="pixel-board"></div>
+    </article>
+    <script src="script.js"></script>
+  </body>
+</html>

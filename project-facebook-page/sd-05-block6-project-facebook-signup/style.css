@@ -1,0 +1,446 @@
+@media only screen and (max-width: 376px){
+  
+  body {
+    margin: 0;
+    padding: 0;
+    width:  375px;
+  }
+  
+/* ----------------------- ELEMENTOS OCULTADOS NO MOBILE------ */
+  .hidden, .hidden-fullscreen{
+    display: none;
+  }
+  
+  .main-content, footer {
+    display: none;
+  }
+
+/* --------------------- CONTAINER MASTER --------------------- */
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 375px;
+  }
+
+/* ----------------------CENTRALIZADOR DO FULL ---------------*/
+  .center {
+    display: flex;
+    flex-direction: column;
+  }
+
+/* -------------------------HEADER DO MOB -------------------*/
+  .logo-div{
+    background-color: #3b5998;
+    display: flex;
+    height: 45px;
+    justify-content: center;
+    text-align: center;
+    width: 375px;
+  }
+  
+  .facebook-logo {
+    align-self: center;
+    width: 123px;
+  }
+
+/* -----------------------CONTENT DOS INPUTS ---------------*/
+  .login-content {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+  }
+
+  label {
+    display: none;
+  }
+
+  .form {
+    text-align: center;
+  }
+
+  
+/* ------------------------------LOGIN CONTENT -------------- */
+  .input-login {
+    background-color: #F5F6F7;
+    border: 1px solid #dddcdc;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+    padding: 12px;
+    text-align: start;
+    width: 300px;
+  }
+
+  .top-login {
+    border-radius: 4px 4px 0 0;
+  }
+
+  .top-input {
+    border-radius: 4px 4px 0 0;
+    margin-bottom: -1px;
+    margin-top: 16px;
+  }
+
+  .bottom-input {
+    border-radius: 0 0 4px 4px;
+    border-bottom: 1px solid #cacaca;
+  }
+  
+/* -------------------------------- GAMBI DO RISK "OU" -------- */
+  .side-risk {
+    display: inline-block;
+    width: 150px;
+  }
+
+  hr {
+    border-top: 1px solid lightgrey;
+  }
+
+  .center-ou {
+    bottom: 5px;
+    width: 20px ;
+    
+    position: relative ; 
+    display: inline-block;
+  }
+
+/* ---------------------------------- BUT - SIGN IN --------- */
+  .button-login {
+    background-color: rgba(24, 119, 242);
+    border-radius: 4px;
+    border-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    height: 42px;
+    line-height: 18px;
+    margin-top: 16px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px -1px 0px;
+    width: 325px;
+  }
+
+/* ---------------------------------- BUT - CREATE NEW ACC ----- */
+  .send-button {
+    background-color: rgb(0, 164, 0);
+    border-color: transparent;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    height: 35px;
+    line-height: 18px;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px -1px 0px;
+    width: 145px;
+  }
+
+/* ------------------------------ MOB - ESQUECEU A SENHA? ------ */
+  .sub-login {
+    color: rgb(117, 150, 200); 
+    cursor: pointer;
+    font-family: "Roboto-Regular", "Helvetica", "sans-serif";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    list-style-position: outside;
+    text-align: center;
+    text-decoration: rgb(117, 150, 200);
+    text-decoration-color: rgb(117, 150, 200);
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+  }
+
+/* ------------------------------------------ LANG OPTION ----- */
+  .footer-language {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+
+  .left-languages.right-languages {
+    display: flex;
+    flex-direction: column;    
+  }
+
+  .language-link {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(87, 107, 149);
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-style: solid;
+  }
+
+  .plusbut {
+    width: 14px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 2px;
+  }
+
+/* ------------------------------------- RODAPÉ FACEBOOK ---- */
+  .facebook-inc {
+    text-align: center;
+  }
+
+  .facebook-inc-text {
+    color: rgb(128, 128, 128);
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 15px;
+  }
+}
+
+/* --------------------------------------- 
+
+
+A PARTIR DAQUI CONFIG MAIOR QUE 376PX
+
+
+---------------------------------------- */
+@media only screen and (min-width: 376.01px){
+
+  body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    max-width: 2000px;
+  }
+
+  /* ----------------------------------------CONTAINER */
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    min-width: 800px;
+  }
+
+  .center {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  /* ----------------------------------------CABEÃ‡ALHO */
+  .top-bar {
+    background-color: rgb(59, 89, 152);
+    background-image: linear-gradient(#4e69a2, #3b5998 50%);
+    border-bottom: 1px solid #133783;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 100%;
+  }
+
+  .logo-div {
+    display: flex;
+    width: 60%;
+  }
+
+  .facebook-logo {
+    height: 45px;
+    margin-top: 4%;
+    width: 170px;
+  }
+
+  .login-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .form {
+    margin: auto 5px;
+    width: 100%;
+  }
+
+  .button-login {
+    background-color: #4267b2;
+    border: 1px solid darkslategray;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 25px;
+    padding: 0 5px;
+  }
+
+  .input-login {
+    background-color: #e8f0fe;
+    border: 1px solid black;
+    line-height: 22px;
+    color: #E8F0FE;
+    width: 100%;
+  }
+  input.input-login::placeholder {
+    color: #e8f0fe;
+  }
+
+  .sub-login {
+    color: #869fc9;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+    padding: 5px 0 0;
+    width: 100%;
+  }
+
+  .sub-login:hover {
+    text-decoration: underline;
+  }
+
+  .hidden {
+    opacity: 0;
+  }
+
+  .hidden-mob{
+    display: none;
+  }
+
+  label {
+    color: white;
+    display: block;
+    font-weight: 500;
+    padding: 5px 0;
+    font-size: 80%;
+  }
+
+  figure {
+    display: flex;
+  }
+
+  /* ----------------------------------------MAIN CONTENT */
+  .main-content {
+    background-image: linear-gradient(white, rgb(194, 208, 229));
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    width: 100%;
+  }
+
+  /* ----------------------------------------MSG CONTENT */
+  .message-content {
+    background-size: contain;
+    height: 100%;
+    width: 55%;
+  }
+
+  .message-content-h1 {
+    color: rgb(14, 56, 95);
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 90%;
+    word-spacing: -1px;
+  }
+
+  .facebook-networking {
+    width: 90%
+  }
+
+  /* ----------------------------------------FORM CONTENT */
+  .form-content {
+    height: 100%;
+    margin-left: 20px;
+    width: 40%;
+  }
+
+  .form-title {
+    font-size: 38px;
+    margin: 20px 0;
+    padding: 2px 0 0;
+  }
+
+  .form-subtitle {
+    color: #333;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 0 0 5px;
+  }
+
+  .data-input {
+    background-color: white;
+    border: 1px solid rgb(197, 198, 204);
+    border-radius: 5px;
+    color: lightslategray;
+    font-size: 18px;
+    line-height: 38px;
+    margin: 0 2px 10px 0;
+    padding-left: 8px;
+  }
+
+  .firstname-input , .lastname-input {
+    width: 46%;
+  }
+
+  .email-input , .birthday, .password-input {
+    width: 96.5%;
+  }
+
+  .gender-container {
+    width: 100%
+  }
+
+  .gender-options {
+    display: flex;
+  }
+
+  .input-text {
+    color: rgb(144, 148, 156);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+
+  .gender {
+    color: rgb(29, 33, 41);
+    display: inline;
+    font-size: 1.3em;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+    vertical-align: middle;
+  }
+
+  .form-radio {
+    display: inline;
+  }
+
+  .send-button {
+    background-color: rgb(105, 167, 78);
+    background-image: linear-gradient(rgb(103, 174, 85), rgb(87, 136, 67));
+    border-color: rgb(59, 110, 34) rgb(59, 110, 34) rgb(44, 81, 21) rgb(59, 110, 34);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.8px;
+    box-shadow: rgb(164, 227, 136) 0 1px 1px 0 inset;
+    color: white;
+    cursor: pointer;
+    font-family: Freight Sans Bold, Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 23.93px;
+    margin: 10px 0;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.5) 0 1px 2px;
+  }
+
+  .input-login.validate {
+    color:rgb(232, 240, 254);
+  }
+}

@@ -1,0 +1,67 @@
+body {
+  background: white;
+}
+
+#container {
+  padding: 10px;
+}
+
+#inputs {
+  margin: 10px 0;
+}
+
+#text-input,
+#meme-insert {
+  margin: 5px 0;
+}
+
+#meme-image-container {
+  width: 400px;
+  height: 350px;
+  background: white;
+  border: 1px solid black;
+}
+
+#meme-image {
+  width: 400px;
+  height: 350px;
+  box-sizing: border-box;
+}
+
+#meme-text {
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-shadow: 5px 5px 5px black;
+  position: absolute;
+  top: 350px;
+  left: 30px;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  width: 380px;
+  text-size-adjust: auto;
+  z-index: 1;
+  text-align: center;
+}
+
+#fire {
+  background: red;
+}
+
+#water {
+  background: blue;
+}
+
+#earth {
+  background: green;
+}
+
+#meme-1,
+#meme-2,
+#meme-3,
+#meme-4 {
+  width: 60px;
+  height: 50px;
+  margin-right: 20px;
+}

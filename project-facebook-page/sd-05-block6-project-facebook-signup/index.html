@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./libs/datepickerX.css" />
+    <link rel="stylesheet" href="./libs/pop-up-valid.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container1">
+      <div class="top-bar">
+        <div class="center">
+          <div class="logo-div">
+            <img
+              src="facebook-logo.png"
+              class="facebook-logo"
+              alt="Facebook logo"
+            />
+          </div>
+          <form id="login-form">
+            <div class="login-content">
+              <div class="form top-input">
+                <label for="login" id="user-email-phone-label"
+                  >Email ou telefone</label
+                >
+                <input
+                  id="user-email-phone"
+                  name="login"
+                  type="text"
+                  class="input-login validate top-login"
+                  data-validate="required"
+                  placeholder="Número de celular ou email"
+                />
+                <p class="sub-login hidden">Email Inválido</p>
+              </div>
+              <div class="form">
+                <label for="user-password-label">Senha</label>
+                <input
+                  id="user-password"
+                  type="password"
+                  class="input-login validate bottom-input"
+                  data-validate="required"
+                  placeholder="Senha"
+                />
+                <p class="sub-login hidden-fullscreen">Esqueceu a conta?</p>
+              </div>
+              <div class="form">
+                <label class="hidden">Botão</label>
+                <button id="button-login" class="button-login">Entrar</button>
+                <div>
+                  <div class="side-risk hidden-mob">
+                    <hr />
+                  </div>
+                  <div class="center-ou hidden-mob">
+                    <p>ou</p>
+                  </div>
+                  <div class="side-risk hidden-mob">
+                    <hr />
+                  </div>
+                </div>
+                <div class="create-acc">
+                  <button
+                    type="button"
+                    id="facebook-register"
+                    class="send-button hidden-mob"
+                  >
+                    Criar nova conta
+                  </button>
+                </div>
+                <p class="sub-login hidden-mob">Esqueceu a senha?</p>
+                <p class="sub-login hidden">Hidden</p>
+              </div>
+              <div class="footer-language hidden-mob">
+                <div class="left-languages">
+                  <a class="language-link" href="#">Português (Brasil)</a>
+                  <a class="language-link" href="#">Español</a>
+                  <a class="language-link" href="#">Deustch</a>
+                  <a class="language-link" href="#">العربية</a>
+                </div>
+                <div class="right-languages">
+                  <a class="language-link" href="#">English (US)</a>
+                  <a class="language-link" href="#">Français (France)</a>
+                  <a class="language-link" href="#">Italiano</a>
+                  <a class="language-link" href="#"
+                    ><img class="plusbut" src="plusbut.png"
+                  /></a>
+                </div>
+              </div>
+              <div class="facebook-inc hidden-mob">
+                <p class="facebook-inc-text">Facebook Inc.</p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!--
+        
+        
+        A partir daqui esta oculto para o MOBILE
+      
+      
+      
+      -->
+      <div class="main-content">
+        <div class="center">
+          <div class="message-content">
+            <h1 class="message-content-h1">
+              O Facebook ajuda você a se conectar e compartilhar com as pessoas
+              que fazem parte da sua vida.
+            </h1>
+            <img
+              src="networking.png"
+              height="195"
+              id="facebook-networking"
+              class="facebook-networking"
+            />
+          </div>
+          <div class="form-content">
+            <div>
+              <h1 class="form-title">
+                Abra uma conta
+              </h1>
+              <h2 class="form-subtitle">É rápido e fácil.</h2>
+            </div>
+            <form id="register-form">
+              <div class="name">
+                <input
+                  type="text"
+                  placeholder="Nome"
+                  class="firstname-input data-input validate"
+                  data-validate="required"
+                />
+                <input
+                  type="text"
+                  placeholder="Sobrenome"
+                  class="lastname-input data-input validate"
+                  data-validate="required"
+                />
+              </div>
+              <div class="data-mail-phone">
+                <input
+                  class="data-input email-input validate"
+                  placeholder="Celular ou email"
+                  data-validate="required"
+                />
+                <input
+                  type="password"
+                  class="data-input password-input validate"
+                  placeholder="Nova senha"
+                  data-validate="required"
+                />
+              </div>
+              <div class="birthday-container">
+                <p class="input-text">Data de nascimento</p>
+                <input
+                  class="birthday data-input validate"
+                  type="text"
+                  placeholder="dd/mm/aaaa"
+                  data-validate="required"
+                />
+              </div>
+              <div class="gender-container">
+                <p class="input-text">Gênero</p>
+                <div class="gender-options">
+                  <div class="form-radio">
+                    <input
+                      type="radio"
+                      id="female"
+                      name="gender"
+                      value="Feminino"
+                      checked
+                      class="gender-input validate"
+                      data-validate="required"
+                    />
+                    <label for="female" class="gender">Feminino</label>
+                  </div>
+                  <div class="form-radio">
+                    <input
+                      type="radio"
+                      id="male"
+                      name="gender"
+                      value="Masculino"
+                      class="gender-input validate"
+                      data-validate="required"
+                    />
+                    <label for="male" class="gender">Masculino</label>
+                  </div>
+                  <div class="form-radio">
+                    <input
+                      type="radio"
+                      id="personalized"
+                      name="gender"
+                      value="Personalizado"
+                      class="gender-input validate"
+                      data-validate="required"
+                    />
+                    <label for="personalized" class="gender"
+                      >Personalizado</label
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="register-container">
+                <button
+                  type="button"
+                  id="facebook-register"
+                  class="send-button"
+                >
+                  Cadastre-se
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer></footer>
+    </div>
+    <script src="./libs/datepickerX.js"></script>
+    <script src="./libs/pop-up-valid.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

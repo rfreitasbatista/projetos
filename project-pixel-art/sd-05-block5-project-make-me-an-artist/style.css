@@ -1,0 +1,42 @@
+.color {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+
+.firstColor {
+  background-color: black;
+}
+
+.default1 {
+  background-color: red;
+}
+
+.default2 {
+  background-color: blue;
+}
+
+.default3 {
+  background-color: yellow;
+}
+
+.blank {
+  background-color: rgb(255, 255, 255);
+}
+
+#pixel-board {
+  width: 210px;
+  height: 210px;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.remove {
+  height: 42px;
+}
