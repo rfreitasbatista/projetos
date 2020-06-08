@@ -1,0 +1,129 @@
+body {
+  background: url(fundo.png);
+  align-items: center;
+}
+
+#cabecalho {
+  width: 92%;
+  height: 60px;
+  position: fixed;
+  left: 3%;
+  right: 3%;
+  vertical-align: center;
+}
+
+.lado-esquerdo {
+  float: left;
+  margin-left: 35px;
+}
+
+.lado-direito {
+  float: right;
+  margin-right: 30px;
+}
+
+header {
+  padding: 5px;
+  background-color: cornflowerblue;
+  font-size: 1.1em;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  z-index: 1;
+  border: 3px solid white;
+}
+
+header h1 {
+  margin: 0;
+  line-height: 60px;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  position: relative;
+  top: 90px;
+}
+
+article {
+  padding: 5px;
+  font-size: 1.1em;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 900;
+  font-style: italic;
+  width: 45%;
+}
+
+section {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1.1em;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 900;
+  font-style: italic;
+}
+
+section ol , section ul {
+  text-align: left;
+}
+
+
+aside {
+  margin: 5px;
+  font-size: 1.1em;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 900;
+  font-style: italic;
+  width: 45%;
+  z-index: 2;
+}
+
+footer {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1.1em;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+}
+
+a {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1.1em;
+  color: white;
+  text-align: justify;
+  text-decoration: underline;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.clear {
+  clear: both;
+}
+
+#pesquisa {
+  width: 100%;
+  line-break: auto;
+}
+
+#pesquisa table {
+  margin: 0 auto;
+  width: 50%;
+  border: 1px solid white;
+}
+
+#pesquisa td , #pesquisa th {
+  border: 1px solid white;
+}
+
+h1, h2, h3 {
+  font-style: normal;
+  text-decoration: none;
+}
